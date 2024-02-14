@@ -1,22 +1,24 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-.header {
+/* Header Styles */
+header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
-.flex-container {
+/* Footer Styles */
+footer {
+    background-color: lightgrey;
+    text-align: left;
+}
+
+
+.flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-.centre {
+.ville {
     background-color: lightgrey;
     padding: 10px;
     border: 1px solid black;
@@ -25,11 +27,5 @@ body {
 }
 
 .centre img {
-    width: 50%;
-}
-
-.footer {
-    background-color: lightgrey;
-    padding: 10px;
-    text-align: center;
+    width: 60%; /* Ajustez la taille des images selon vos besoins */
 }
